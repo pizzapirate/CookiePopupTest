@@ -27,13 +27,19 @@
             <div class="">
                 <h1>Cookies Popup Test</h1>
                 <p>
-                    This is a test
+                    This website is just a test to familiarize myself with JavaScript cookies and how to implement a popup.
+                </p>
+                <p>
+                    If you can't see the popup when loading the page, that means you have already accepted the cookie consent. If you want to see the popup again, you can delete the cookie by going to your browser settings and deleting the cookie.
+                </p>
+                <p>
+                    Or, click the button below.
                 </p>
             </div>
         </div>
 
         <div class="my-5">
-            <button type="button" class="btn btn-dark" onclick="showCookiePopup()">Cookie</button>
+            <button type="button" class="btn btn-dark" onclick="deleteCookie('user_cookie_consent')">Cookie</button>
         </div>
 
         <div id="CookiePopup" class="card">

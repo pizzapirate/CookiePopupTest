@@ -22,6 +22,7 @@ function deleteCookie(cname) {
     d.setTime(d.getTime() + (24*60*60*1000));
     let expires = "expires="+ d.toUTCString();
     document.cookie = cname + "=;" + expires + ";path=/";
+    showCookiePopup();
 }
 
 // Read cookie
